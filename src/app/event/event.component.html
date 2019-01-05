@@ -1,0 +1,6 @@
+<h2>{{log}}</h2>
+<input type="text" ref-text [(ngModel)]="textValue" ><br/>
+<button (click)="logText(text.value)">Update Log</button>
+<button (click)="textValue=''">Clear</button>
+
+<h2>Log <button (click)="log=''">Clear</button></h2>
